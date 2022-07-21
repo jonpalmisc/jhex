@@ -27,7 +27,7 @@ pub fn main() anyerror!void {
 
     var args = try std.process.argsAlloc(alloc);
     if (args.len < 2) {
-        try out.print("Usage: zxd <file>\n", .{});
+        try out.print("usage: jhex {{<file>|-}}\n", .{});
         return;
     }
 
