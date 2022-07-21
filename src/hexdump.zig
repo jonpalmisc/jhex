@@ -52,8 +52,8 @@ pub const HexDumper = struct {
             .line_width = 16,
             .address_separator = ":",
             .byte_separator = " ",
-            .column_separator = "-",
-            .margin_separator = " | ",
+            .column_separator = "  ",
+            .margin_separator = "   ",
             .show_separators_past_end = false,
         };
     }
